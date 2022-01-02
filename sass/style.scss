@@ -29,9 +29,9 @@ body{
 
     span:nth-child(1){
         position: absolute;
+        display: block;
         top: -16px;
         left: -3.5px;
-        display: block;
         width: 30px;
         height: 30px;
         background: transparent;
@@ -129,7 +129,7 @@ body{
         0 0 150px $meancolor,
         0 0 200px $meancolor,
         0 0 250px $meancolor,
-        0 0 300px $meancolor,
+        0 0 300px $meancolor, 
         0 0 350px $meancolor;
 
         span:nth-child(1){
